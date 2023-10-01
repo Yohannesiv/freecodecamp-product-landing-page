@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -251,3 +252,9 @@ footer {
     text-align: center;
     padding: 0.3em;
   }
+
+@media (max-width: 1000px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
