@@ -202,7 +202,20 @@ body {
     font-size: 20px;
 }
 
-.for-div button {
+.input {
+    padding-bottom: 20px;;
+}
+
+.input-email {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+.for-div .submit {
     width: 150px;
     background-color: #3882F6;
     border: none;
@@ -212,9 +225,10 @@ body {
     cursor: pointer;
     border: 1px solid white;
     border-radius: 10px;
+   
 }
 
-.for-div button:hover {
+.for-div .submit:hover {
     background-color: white;
     color: #3882F6;
     cursor: pointer;
